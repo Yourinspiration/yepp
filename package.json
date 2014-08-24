@@ -6,7 +6,7 @@
   "bugs": "https://github.com/Yourinspiration/yepp/issues",
   "preferGlobal": "true",
   "bin": {
-    "yapp": "lib/yepp.js"
+    "yepp": "lib/yepp.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
