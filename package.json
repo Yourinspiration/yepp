@@ -1,0 +1,34 @@
+{
+  "name": "yepp",
+  "version": "0.0.1",
+  "description": "A command line utility to bootstrap and manage cordova apps",
+  "homepage": "https://github.com/Yourinspiration/yepp",
+  "bugs": "https://github.com/Yourinspiration/yepp/issues",
+  "preferGlobal": "true",
+  "bin": {
+    "yapp": "lib/yepp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cordova",
+    "cli",
+    "phonegap",
+    "utility"
+  ],
+  "author": "Marcel Härle <marcel@yourinspiration.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yourinspiration/yepp"
+  },
+  "license": "MIT",
+  "engines" : {
+    "node" : ">=0.10.3"
+  },
+  "dependencies": {
+    "colors": "^0.6.2",
+    "commander-plus": "0.0.6",
+    "prompt": "^0.2.13"
+  }
+}
