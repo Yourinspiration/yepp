@@ -7,7 +7,7 @@ yepp is a command line tool for [Node.js](http://nodejs.org/) that combines exis
 ## Installation
 
 ```
-npm install -g yep
+npm install -g yepp
 ```
 
 ## Requirements
@@ -35,5 +35,5 @@ npm install -g bower
 yepp currently supports [Mobile Angular UI](http://mobileangularui.com/) for application initialization. That means yepp will create a base for an application using the [Mobile Angular UI](http://mobileangularui.com/) framework:
 
 ```
-yep init mobileangular
+yepp init mobileangular
 ```
