@@ -2,7 +2,7 @@
 
 ====
 
-yepp is tool that combines existing tools like cordova and bower to create and manage cordova apps more easily.
+yepp is a command line tool for [Node.js](http://nodejs.org/) that combines existing tools like [cordova](http://cordova.apache.org/) and [bower](http://bower.io/) to create/bootstrap and manage (run, release etc.) cordova mobile apps more easily.
 
 ## Installation
 
