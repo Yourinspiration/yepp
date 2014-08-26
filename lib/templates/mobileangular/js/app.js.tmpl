@@ -1,0 +1,17 @@
+angular.module('#application#', [
+	"ngRoute",
+	"mobile-angular-ui",
+	"#application#.controllers",
+	"#application#.services"
+])
+
+.config(function($routeProvider) {
+    $routeProvider.when('/', {
+        templateUrl: 'templates/home.html',
+        controller: 'HomeController'
+    });
+ })
+
+.controller('HomeController', function($scope) {
+	$scope.message = 'Hello from HomeController';
+});

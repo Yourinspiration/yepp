@@ -1,6 +1,6 @@
 {
   "name": "yepp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A command line utility to bootstrap and manage cordova apps",
   "homepage": "https://github.com/Yourinspiration/yepp",
   "bugs": "https://github.com/Yourinspiration/yepp/issues",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "colors": "^0.6.2",
-    "execSync": "^1.0.1-pre",
+    "execsync-ng": "0.0.6",
     "prompt": "^0.2.13"
   }
 }
