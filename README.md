@@ -4,6 +4,21 @@
 
 yepp is tool that combines existing tools like cordova and bower to create and manage cordova apps more easily.
 
+## Installation
+
+```
+npm install -g yep
+```
+
+## Requirements
+
+yepp is build ontop other tools. You must have installed cordova and bower to use yepp:
+
+```
+npm install -g cordova
+npm install -g bower
+```
+
 ## Commands
 
 * init: bootstraps a new application
@@ -14,3 +29,11 @@ yepp is tool that combines existing tools like cordova and bower to create and m
 * run <platform>: run app for given platform
 * emulate <platform>: emulate the app for given platform
 * release <platform>: create release for given platform
+
+## Framework support
+
+yepp currently supports [Mobile Angular UI](http://mobileangularui.com/) for application initialization. That means yepp will create a base for an application using the [Mobile Angular UI](http://mobileangularui.com/) framework:
+
+```
+yep init mobileangular
+```
