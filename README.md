@@ -25,7 +25,7 @@ npm install -g bower
 * cleanup: remove platforms and plugins
 * plugins: load and install cordova plugins defined in yepp.json
 * platforms: install platform defined in yepp.json
-* install <platform>: build project for given platform
+* install <platform>:  add platform and build project for given platform
 * run <platform>: run app for given platform
 * emulate <platform>: emulate the app for given platform
 * release <platform>: create release for given platform
