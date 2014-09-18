@@ -1,6 +1,6 @@
 {
   "name": "yepp",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A command line utility to bootstrap and manage cordova apps",
   "homepage": "https://github.com/Yourinspiration/yepp",
   "bugs": "https://github.com/Yourinspiration/yepp/issues",
