@@ -28,6 +28,11 @@
   },
   "dependencies": {
     "colors": "^0.6.2",
-    "prompt": "^0.2.13"
+    "prompt": "^0.2.13",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0"
   }
 }
